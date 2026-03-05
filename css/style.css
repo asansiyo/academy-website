@@ -1,0 +1,31 @@
+
+
+<!-- ========================= -->
+<!-- css/style.css -->
+<!-- ========================= -->
+
+body{
+font-family:Arial, Helvetica, sans-serif;
+}
+
+.hero{
+height:90vh;
+background:linear-gradient(rgba(0,0,0,0.6),rgba(0,0,0,0.6)),url("https://images.unsplash.com/photo-1523240795612-9a054b0db644");
+background-size:cover;
+background-position:center;
+display:flex;
+align-items:center;
+}
+
+.page-header{
+background:#0d6efd;
+color:white;
+padding:60px;
+text-align:center;
+}
+
+.card:hover{
+transform:translateY(-5px);
+transition:0.3s;
+box-shadow:0 10px 20px rgba(0,0,0,0.2);
+}
