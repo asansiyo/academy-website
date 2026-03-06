@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" /><meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Programs — Elharoon Academy</title>
+  <link rel="stylesheet" href="css/style.css" />
+  <style>
+    .filter-bar{display:flex;gap:.7rem;flex-wrap:wrap;justify-content:center;margin-bottom:2.8rem}
+    .fbtn{padding:.5rem 1.2rem;border-radius:100px;font-size:.8rem;font-family:var(--font-mono);letter-spacing:.1em;text-transform:uppercase;border:1.5px solid var(--border);background:transparent;color:var(--slate);cursor:pointer;transition:var(--transition)}
+    .fbtn.active,.fbtn:hover{border-color:var(--blue-mid);color:var(--blue-mid);background:var(--blue-pale)}
+  </style>
+</head>
+<body>
+<nav class="nav"><div class="nav__inner"><a href="index.html" class="nav__logo"><div class="nav__logo-icon">EH</div><div><span class="nav__logo-name">Elharoon Academy</span><span class="nav__logo-tag">Academic &amp; Tutoring</span></div></a><ul class="nav__links"><li><a href="index.html" class="nav__link">Home</a></li><li><a href="about.html" class="nav__link">About</a></li><li><a href="programs.html" class="nav__link">Programs</a></li><li><a href="gallery.html" class="nav__link">Gallery</a></li><li><a href="proof.html" class="nav__link">Proof of Work</a></li><li><a href="contact.html" class="nav__link">Contact</a></li><li><a href="contact.html" class="btn btn-primary nav__cta">Enroll Now</a></li></ul><button class="nav__toggle"><span></span><span></span><span></span></button></div></nav>
+
+<div class="page-hero"><div class="page-hero__inner container"><p class="eyebrow">Academic Programs</p><h1 class="page-hero__title">Our <span class="text-blue">Programs</span></h1><p class="breadcrumb"><a href="index.html">Home</a> / Programs</p></div></div>
+
+<section class="section">
+  <div class="container">
+    <div class="text-center">
+      <p class="eyebrow">Find Your Subject</p>
+      <h2 class="section-title">12 Subjects, <span class="text-blue">One Academy</span></h2>
+      <div class="rule"></div>
+      <div class="filter-bar">
+        <button class="fbtn active">All Subjects</button>
+        <button class="fbtn">Mathematics</button>
+        <button class="fbtn">Sciences</button>
+        <button class="fbtn">Languages</button>
+        <button class="fbtn">Exam Prep</button>
+      </div>
+    </div>
+    <div class="grid-3">
+      <div class="prog-card reveal">
+        <div class="prog-card__top"><div class="prog-card__ico">📐</div><div><div class="prog-card__name">Mathematics</div><div class="prog-card__lvl">Class 6 – University Entrance</div></div></div>
+        <div class="prog-card__body"><p class="prog-card__desc">Algebra, geometry, trigonometry, calculus, and statistics. Built around the Bangladesh National Curriculum with board exam focus.</p><div class="prog-card__feat"><div class="prog-card__feat-item">SSC &amp; HSC curriculum</div><div class="prog-card__feat-item">Weekly mock assessments</div><div class="prog-card__feat-item">Past paper drills</div><div class="prog-card__feat-item">University entrance prep</div></div></div>
+        <div class="prog-card__foot"><div class="prog-card__price">৳3,500 <span>/month</span></div><a href="contact.html" class="btn btn-primary" style="padding:.5rem 1rem;font-size:.82rem">Enroll →</a></div>
+      </div>
+      <div class="prog-card reveal">
+        <div class="prog-card__top"><div class="prog-card__ico">⚗️</div><div><div class="prog-card__name">Chemistry</div><div class="prog-card__lvl">SSC &amp; HSC</div></div></div>
+        <div class="prog-card__body"><p class="prog-card__desc">Organic, inorganic, and physical chemistry — taught with practical examples, board question analysis, and formula mastery.</p><div class="prog-card__feat"><div class="prog-card__feat-item">Board question mapping</div><div class="prog-card__feat-item">Diagram-based learning</div><div class="prog-card__feat-item">Equation practice sets</div><div class="prog-card__feat-item">Mock board exams</div></div></div>
+        <div class="prog-card__foot"><div class="prog-card__price">৳3,500 <span>/month</span></div><a href="contact.html" class="btn btn-primary" style="padding:.5rem 1rem;font-size:.82rem">Enroll →</a></div>
+      </div>
+      <div class="prog-card reveal">
+        <div class="prog-card__top"><div class="prog-card__ico">⚡</div><div><div class="prog-card__name">Physics</div><div class="prog-card__lvl">SSC &amp; HSC</div></div></div>
+        <div class="prog-card__body"><p class="prog-card__desc">Mechanics, electromagnetism, optics, and modern physics. Concept-first teaching backed by numerical problem solving.</p><div class="prog-card__feat"><div class="prog-card__feat-item">Concept clarity sessions</div><div class="prog-card__feat-item">Numerical problem banks</div><div class="prog-card__feat-item">MCQ intensive batches</div><div class="prog-card__feat-item">Exam strategy coaching</div></div></div>
+        <div class="prog-card__foot"><div class="prog-card__price">৳3,500 <span>/month</span></div><a href="contact.html" class="btn btn-primary" style="padding:.5rem 1rem;font-size:.82rem">Enroll →</a></div>
+      </div>
+      <div class="prog-card reveal">
+        <div class="prog-card__top"><div class="prog-card__ico">🧬</div><div><div class="prog-card__name">Biology</div><div class="prog-card__lvl">SSC &amp; HSC</div></div></div>
+        <div class="prog-card__body"><p class="prog-card__desc">Botany, zoology, cell biology, genetics, and ecology — comprehensive notes, diagram practice, and SBA preparation.</p><div class="prog-card__feat"><div class="prog-card__feat-item">Diagram mastery focus</div><div class="prog-card__feat-item">SBA practical prep</div><div class="prog-card__feat-item">Medical entrance coaching</div></div></div>
+        <div class="prog-card__foot"><div class="prog-card__price">৳3,500 <span>/month</span></div><a href="contact.html" class="btn btn-primary" style="padding:.5rem 1rem;font-size:.82rem">Enroll →</a></div>
+      </div>
+      <div class="prog-card reveal">
+        <div class="prog-card__top"><div class="prog-card__ico">🌍</div><div><div class="prog-card__name">English Language</div><div class="prog-card__lvl">All Levels</div></div></div>
+        <div class="prog-card__body"><p class="prog-card__desc">Reading comprehension, grammar, composition, and spoken English — from school curriculum to IELTS and professional English.</p><div class="prog-card__feat"><div class="prog-card__feat-item">IELTS / TOEFL preparation</div><div class="prog-card__feat-item">Academic writing skills</div><div class="prog-card__feat-item">Speaking &amp; listening practice</div></div></div>
+        <div class="prog-card__foot"><div class="prog-card__price">৳3,000 <span>/month</span></div><a href="contact.html" class="btn btn-primary" style="padding:.5rem 1rem;font-size:.82rem">Enroll →</a></div>
+      </div>
+      <div class="prog-card reveal">
+        <div class="prog-card__top"><div class="prog-card__ico">📖</div><div><div class="prog-card__name">Bengali Language &amp; Literature</div><div class="prog-card__lvl">Class 6 – HSC</div></div></div>
+        <div class="prog-card__body"><p class="prog-card__desc">Grammar, comprehension, essay writing, and literature analysis for the national curriculum at all levels.</p><div class="prog-card__feat"><div class="prog-card__feat-item">Creative writing guidance</div><div class="prog-card__feat-item">Literature analysis</div><div class="prog-card__feat-item">Board writing formats</div></div></div>
+        <div class="prog-card__foot"><div class="prog-card__price">৳2,500 <span>/month</span></div><a href="contact.html" class="btn btn-primary" style="padding:.5rem 1rem;font-size:.82rem">Enroll →</a></div>
+      </div>
+      <div class="prog-card reveal">
+        <div class="prog-card__top"><div class="prog-card__ico">📊</div><div><div class="prog-card__name">Accounting &amp; Business Studies</div><div class="prog-card__lvl">Commerce Stream</div></div></div>
+        <div class="prog-card__body"><p class="prog-card__desc">Financial accounting, business principles, and economics for commerce stream students at SSC and HSC level.</p><div class="prog-card__feat"><div class="prog-card__feat-item">Ledger and accounts practice</div><div class="prog-card__feat-item">Board case studies</div><div class="prog-card__feat-item">Calculation-based drills</div></div></div>
+        <div class="prog-card__foot"><div class="prog-card__price">৳3,000 <span>/month</span></div><a href="contact.html" class="btn btn-primary" style="padding:.5rem 1rem;font-size:.82rem">Enroll →</a></div>
+      </div>
+      <div class="prog-card reveal">
+        <div class="prog-card__top"><div class="prog-card__ico">🏛️</div><div><div class="prog-card__name">University Entrance Prep</div><div class="prog-card__lvl">Post-HSC</div></div></div>
+        <div class="prog-card__body"><p class="prog-card__desc">Dedicated coaching for DU, BUET, KUET, and other university admission tests. Mock exams and question bank mastery.</p><div class="prog-card__feat"><div class="prog-card__feat-item">Full syllabus revision</div><div class="prog-card__feat-item">Weekly mock admission tests</div><div class="prog-card__feat-item">Application guidance</div></div></div>
+        <div class="prog-card__foot"><div class="prog-card__price">৳5,000 <span>/month</span></div><a href="contact.html" class="btn btn-primary" style="padding:.5rem 1rem;font-size:.82rem">Enroll →</a></div>
+      </div>
+      <div class="prog-card reveal">
+        <div class="prog-card__top"><div class="prog-card__ico">🗣️</div><div><div class="prog-card__name">IELTS Intensive</div><div class="prog-card__lvl">Band 6.0 – 8.0 Target</div></div></div>
+        <div class="prog-card__body"><p class="prog-card__desc">Full IELTS preparation covering Listening, Reading, Writing (Task 1 &amp; 2), and Speaking with certified examiners.</p><div class="prog-card__feat"><div class="prog-card__feat-item">Mock tests every weekend</div><div class="prog-card__feat-item">Speaking 1-on-1 sessions</div><div class="prog-card__feat-item">Writing feedback &amp; correction</div></div></div>
+        <div class="prog-card__foot"><div class="prog-card__price">৳5,500 <span>/month</span></div><a href="contact.html" class="btn btn-primary" style="padding:.5rem 1rem;font-size:.82rem">Enroll →</a></div>
+      </div>
+    </div>
+
+    <!-- SCHEDULE INFO -->
+    <div style="margin-top:4rem;background:var(--off);border:1px solid var(--border);border-radius:var(--radius);padding:2.5rem" class="reveal">
+      <div class="grid-2" style="align-items:center;gap:3rem">
+        <div>
+          <p class="eyebrow">Batch Timings</p>
+          <h3 style="font-family:var(--font-display);font-size:1.6rem;color:var(--navy);margin:.6rem 0 1rem">Flexible Schedules for Every Student</h3>
+          <p style="color:var(--slate);line-height:1.8;margin-bottom:1.5rem">We offer morning, afternoon, and evening batches Saturday through Thursday. Choose the time that best fits around your school day.</p>
+          <a href="contact.html" class="btn btn-primary">Check Availability →</a>
+        </div>
+        <div style="display:grid;grid-template-columns:1fr 1fr;gap:1rem">
+          <div style="background:var(--white);border:1px solid var(--border);border-radius:var(--radius-sm);padding:1.2rem;text-align:center"><div style="font-family:var(--font-mono);font-size:.72rem;color:var(--blue-mid);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.4rem">Morning</div><div style="font-family:var(--font-display);font-size:1.1rem;color:var(--navy)">7:00 – 9:00 AM</div></div>
+          <div style="background:var(--white);border:1px solid var(--border);border-radius:var(--radius-sm);padding:1.2rem;text-align:center"><div style="font-family:var(--font-mono);font-size:.72rem;color:var(--blue-mid);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.4rem">Afternoon</div><div style="font-family:var(--font-display);font-size:1.1rem;color:var(--navy)">2:00 – 4:00 PM</div></div>
+          <div style="background:var(--white);border:1px solid var(--border);border-radius:var(--radius-sm);padding:1.2rem;text-align:center"><div style="font-family:var(--font-mono);font-size:.72rem;color:var(--blue-mid);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.4rem">Evening</div><div style="font-family:var(--font-display);font-size:1.1rem;color:var(--navy)">5:00 – 7:00 PM</div></div>
+          <div style="background:var(--white);border:1px solid var(--border);border-radius:var(--radius-sm);padding:1.2rem;text-align:center"><div style="font-family:var(--font-mono);font-size:.72rem;color:var(--blue-mid);letter-spacing:.1em;text-transform:uppercase;margin-bottom:.4rem">Weekend</div><div style="font-family:var(--font-display);font-size:1.1rem;color:var(--navy)">Sat–Sun Special</div></div>
+        </div>
+      </div>
+    </div>
+
+    <!-- FAQ -->
+    <div style="margin-top:4rem">
+      <div class="text-center" style="margin-bottom:2.5rem"><p class="eyebrow">Questions</p><h2 class="section-title">Frequently Asked <span class="text-blue">Questions</span></h2><div class="rule"></div></div>
+      <div style="max-width:720px;margin:0 auto;display:flex;flex-direction:column;gap:.9rem">
+        <div class="card reveal"><h3 class="card__title" style="font-size:1rem;margin-bottom:.5rem">What class levels do you teach?</h3><p class="card__text">We teach students from Class 6 through to post-HSC university preparation and IELTS coaching — covering all major academic levels in Bangladesh.</p></div>
+        <div class="card reveal"><h3 class="card__title" style="font-size:1rem;margin-bottom:.5rem">How many students are in each batch?</h3><p class="card__text">Class sizes are kept to 10–15 students to ensure every student gets adequate attention. We also offer one-on-one tutoring sessions on request.</p></div>
+        <div class="card reveal"><h3 class="card__title" style="font-size:1rem;margin-bottom:.5rem">Do you provide study materials?</h3><p class="card__text">Yes. All enrolled students receive our exclusive printed notes, question banks, and past paper collections — included in the monthly fee.</p></div>
+        <div class="card reveal"><h3 class="card__title" style="font-size:1rem;margin-bottom:.5rem">Are there sibling discounts?</h3><p class="card__text">Yes — 10% discount for the second sibling and 15% for the third. We also run scholarship programs for high-achieving students with financial need.</p></div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<footer class="footer"><div class="container"><div class="footer__grid"><div><a href="index.html" class="nav__logo" style="color:#fff"><div class="nav__logo-icon" style="background:rgba(255,255,255,.15)">EH</div><div><span class="nav__logo-name" style="color:#fff">Elharoon Academy</span><span class="nav__logo-tag" style="color:rgba(255,255,255,.5)">Academic &amp; Tutoring</span></div></a><p class="footer__desc">Elharoon Academy provides world-class academic tutoring to help every student reach their potential.</p></div><div><p class="footer__head">Navigation</p><ul class="footer__links"><li><a href="index.html">Home</a></li><li><a href="about.html">About</a></li><li><a href="programs.html">Programs</a></li><li><a href="gallery.html">Gallery</a></li></ul></div><div><p class="footer__head">Resources</p><ul class="footer__links"><li><a href="proof.html">Proof of Work</a></li><li><a href="contact.html">Contact</a></li></ul></div><div><p class="footer__head">Contact</p><ul class="footer__links"><li><a href="mailto:info@elharoon.com">info@elharoon.com</a></li><li><a href="tel:+880XXXXXXXX">+880 XXXX-XXXXXX</a></li></ul></div></div><div class="footer__bottom"><span>&copy; 2025 Elharoon Academy. All rights reserved.</span><div class="footer__social"><a href="#" class="footer__social-a">f</a><a href="#" class="footer__social-a">in</a><a href="#" class="footer__social-a">&#9654;</a></div></div></div></footer>
+<a href="https://wa.me/880XXXXXXXX" class="wa-btn" target="_blank"><svg viewBox="0 0 24 24"><path d="M17.472 14.382c-.297-.149-1.758-.867-2.03-.967-.273-.099-.471-.148-.67.15-.197.297-.767.966-.94 1.164-.173.199-.347.223-.644.075-.297-.15-1.255-.463-2.39-1.475-.883-.788-1.48-1.761-1.653-2.059-.173-.297-.018-.458.13-.606.134-.133.298-.347.446-.52.149-.174.198-.298.298-.497.099-.198.05-.371-.025-.52-.075-.149-.669-1.612-.916-2.207-.242-.579-.487-.5-.669-.51-.173-.008-.371-.01-.57-.01-.198 0-.52.074-.792.372-.272.297-1.04 1.016-1.04 2.479 0 1.462 1.065 2.875 1.213 3.074.149.198 2.096 3.2 5.077 4.487.709.306 1.262.489 1.694.625.712.227 1.36.195 1.871.118.571-.085 1.758-.719 2.006-1.413.248-.694.248-1.289.173-1.413-.074-.124-.272-.198-.57-.347m-5.421 7.403h-.004a9.87 9.87 0 01-5.031-1.378l-.361-.214-3.741.982.998-3.648-.235-.374a9.86 9.86 0 01-1.51-5.26c.001-5.45 4.436-9.884 9.888-9.884 2.64 0 5.122 1.03 6.988 2.898a9.825 9.825 0 012.893 6.994c-.003 5.45-4.437 9.884-9.885 9.884m8.413-18.297A11.815 11.815 0 0012.05 0C5.495 0 .16 5.335.157 11.892c0 2.096.547 4.142 1.588 5.945L.057 24l6.305-1.654a11.882 11.882 0 005.683 1.448h.005c6.554 0 11.89-5.335 11.893-11.893a11.821 11.821 0 00-3.48-8.413Z"/></svg></a>
+<script src="js/main.js"></script>
+</body>
+</html>
